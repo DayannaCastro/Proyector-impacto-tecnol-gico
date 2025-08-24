@@ -8,10 +8,14 @@ el valor que la persona piensa usando una estrategia eficiente. Esto sirve como 
 Mostrar un software pequeño pero funcional, bien explicado, que permita reflexionar sobre cómo las tecnologías emergentes están transformando procesos y decisiones en la sociedad.
 
 ## ¿Qué puede hacer el programa?
-- Ejecuta un menú por consola.
-- Pide un rango y trata de adivinar el número elegido por la persona.
-- Ajusta su suposición según las pistas (mayor, menor o correcto).
-- Ilustra la idea de reducir pasos con una lógica sistemática.
+El programa es un *adivinador de números*, basicamente la computadora intenta acertar el número que la persona piensa, funcionando de la siguiente manera:
+- Pide al usuario que piense un número dentro de un rango definido, del 1 al 100.
+- Pra empezar el juego la computadora dice un numero aleatorio.
+- El usuario indica si la suposición es mayor, menor o correcta.
+- El programa ajusta su próximo numero aleatorio según la respuesta del usuario.
+- Repite el proceso, mostrando distintos mensajes de acuerdo a la respuesta del usuario hasta adivinar correctamente.
+
+El código ilustra conceptos de *lógica de programación*, uso de ciclos y decisiones condicionales. Además permite reflexionar sobre cómo los algoritmos pueden optimizar procesos y apoyar decisiones.
 
 ## Cómo ejecutar
 1. Instala Python 3.
